@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namaste-React</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- <div id="root"> -->
+    <!-- using plan html code -->
+    <!-- <h1>Hello World</h1> -->
+    <!-- </div> -->
+    <!-- <div>Above root</div> -->
+    <div id="root"></div>
+    <!-- <div>Below  root</div> -->
+
+    <!--1. using vanilla js -->
+    <!-- <script>
+        const heading= document.createElement("h1");
+       heading.innerHTML="Hello World!!";
+       const root=document.getElementById("root");
+       root.appendChild(heading);  
+    </script> -->
+
+    <!--2. using react  -->
+    <!-- 1.using CDN links-->
+    <!-- <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script> -->
+
+    <!-- <script src="./App.js" type="module"> -->
+    <script src="./FoodApp.js" type="module"></script>
+
+    <script>
+      function noSpace(x) {
+        // console.log(x[0]);
+        const temp = "";
+        for (let i = 0; i < x.length; i++) {
+          if (x[i] === " ") {
+            continue;
+          } else {
+            temp+=x[i];
+          }
+        }
+        return temp;
+      }
+      const value=noSpace("8 j 8   mBliB8g  imjB8B8  jl  B");
+      console.log(value);
+    </script>
+  </body>
+</html>
