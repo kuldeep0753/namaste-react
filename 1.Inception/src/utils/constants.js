@@ -1,0 +1,1 @@
+export const LOGO_URL="https://cdn1.iconfinder.com/data/icons/cafe-and-restaurant/128/_Restaurant-1024.png";

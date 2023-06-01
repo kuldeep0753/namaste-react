@@ -1,0 +1,102 @@
+Primary:
+    Frontend-Core:  
+        -->ES5
+        -->ES6
+        -->SPA
+        -->SSr
+        -->Typescript
+        -->Rest API
+        -->Auth
+        -->Debugging
+        -->Web security
+        -->Caching
+
+    Frontend-React:
+        -->Virtual DOM
+        -->JSX
+        -->Components
+        -->Hooks
+        -->Components Lifecycle
+        -->State managament
+        -->Redux
+        -->Rounting
+        -->API
+        -->Testing
+        -->Build and packages
+
+
+---------------------------------------------------
+Secondary:
+    Backend-Core:   -->Rest Api
+                    -->Web Socket
+                    -->OpenAPI specification
+                    -->Auth
+                    -->HTTP Advanced
+                    -->API security
+                    -->API Gateway
+                    -->Micrservices
+                    -->Caching
+                    -->Serveless
+                    -->Contanerizaition vs Virtualization
+                    -->Message Brokers
+
+     Backend -NodeJs:   -->DataTypes and Variables
+                        -->Classes and functions
+                        -->Event Loop
+                        -->Exceptional Handling
+                        -->Express.JSX
+                        -->Async
+                        -->Module
+                        -->Build and packages
+                        -->ORM
+                        -->Logging
+                        -->Testing
+
+
+    RDBMS:  -->ACID
+            -->N+1
+            -->Normalisation
+            -->Transaction
+            -->Performance optimization
+
+    Database -NoSql:-->CAP
+                    -->BASE
+                    -->Documented Database
+                    -->Column Database
+                    -->Key -Value Database
+                    -->Graph Database
+---------------------------------------------------
+Tertiary: 
+        Infra-Core: -->Virtualization
+                    -->Contanerizaition
+                    -->Process
+                    -->Threads
+                    -->Caches
+                    -->File System
+                    -->Network Attached
+                    -->Cloud
+                    -->OSI Module
+                    -->Communication Protocols
+                    -->IP Address , Subnet CIDR Notation
+
+
+            Infra-Devops-CI:-->Pipelines
+                            -->VCS
+                            -->Branching Strategy
+                            -->Version Strategy
+                            -->Build Management
+                            -->Static Application Security Testing
+
+            Infra-Devops-CD:-->Dynamic Application Security
+                            -->Zero Downtime Deployment
+                            -->Continuous Delivery Continuous Deployment
+            
+            Infra-AWS:  -->IaaS
+                    -->PaaS
+                    -->SaaS
+                    -->FaaS
+                    -->CaaS
+                    -->Security
+                    -->Logging and monitoring
+                    -->Reporting and Billing
+                    -->Optimization

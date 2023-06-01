@@ -59,21 +59,21 @@ import ReactDOM from "react-dom/client"; //it;s require to deal with the DOM api
 
 // ----------- Basic React component-------
 
-const Heading = () => <h1>Hi I am Functional component🚀</h1>;
-console.log(Heading);
+// const Heading = () => <h1>Hi I am Functional component🚀</h1>;
+// console.log(Heading);
 
-const Main=()=>{
-    return(<>
-    
-    <b>Main take heading component</b>
-    {/* Below are giving same output */}
-    {Heading()}
-    <Heading></Heading>
-    <Heading/>
-    
-    </>)
-}
-const root = ReactDOM.createRoot(document.getElementById("root"));
-console.log(root);
+// const Main=()=>{
+//     return(<>
 
-root.render(<Main />);
+//     <b>Main take heading component</b>
+//     {/* Below are giving same output */}
+//     {Heading()}
+//     <Heading></Heading>
+//     <Heading/>
+
+//     </>)
+// }
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// console.log(root);
+
+// root.render(<Main />);
