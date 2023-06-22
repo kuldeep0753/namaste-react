@@ -20,7 +20,7 @@ class ProfileCard extends React.Component {
     const json = await data.json();
     console.log(json);
     this.setState({
-      userInfo:json,
+      userInfo:json
     });
   }
   componentDidUpdate(){
