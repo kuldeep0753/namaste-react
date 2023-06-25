@@ -10,6 +10,7 @@ import Body from "./components/Body";
 import Error from "./components/Error";
 import { RestaurantMenu } from "./components/RestaurantMenu";
 import { Profile } from "./components/Profile";
+import Insta from "./components/Instmart";
 
 const App = () => {
   return (
@@ -25,7 +26,7 @@ const appRouter = createBrowserRouter([
     element: <App />,
     errorElement: <Error />,
     children: [
-      { path: "/", element: <Body /> },
+      { path: "/", element: <Body user={"Namaste"}/> },
       {
         path: "/about",
         element: <About />,
@@ -37,7 +38,8 @@ const appRouter = createBrowserRouter([
         ]
       },
       { path: "/contact", element: <Contact /> },
-      { path: "/restaurant/:resId", element: <RestaurantMenu /> }
+      { path: "/restaurant/:resId", element: <RestaurantMenu /> },
+      {path:"/insta", element:<Insta/>}
     ]
   }
 ]);

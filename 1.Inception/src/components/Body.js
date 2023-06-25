@@ -5,7 +5,7 @@ import { swiggy_api_URL } from "../utils/constants";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 
-const Body = () => {
+const Body = ({user}) => {
   const [listOfRestaurant, setListOfRestaurant] = useState(resData);
   const [searchText, setSearchText] = useState("");
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
@@ -70,7 +70,7 @@ const Body = () => {
         {filteredRestaurant.map(restaurant => (
           <Link key={restaurant.data.id} to={"/restaurant/"+restaurant.data.id}>
             {" "}
-            <Card key={restaurant.data.id} resData={restaurant} />
+            <Card key={restaurant.data.id} resData={restaurant} user={user} />
           </Link>
         ))}
       </div>

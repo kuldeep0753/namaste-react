@@ -1,7 +1,7 @@
 import React from "react";
 
 const Card = (props) => {
-  const { resData } = props;
+  const { resData,user } = props;
   // console.log(resData);
   const { imageUrl, name, cuisines, rating_text, deliveryTime } =resData?.data;
   // console.log(cuisines);
@@ -14,7 +14,7 @@ const Card = (props) => {
       <h3 className="item-title">{name}</h3>
       <h4>{cuisines.join(",")}</h4>
       <h4>{rating_text} Stars</h4>
-      <h4 className="time">{deliveryTime} mins</h4>
+      <h4 className="time">{user} mins</h4>
     </div>
   );
 };
